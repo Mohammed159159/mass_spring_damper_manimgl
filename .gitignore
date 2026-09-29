@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+/tmp/mpl/
+
+# Virtual environments
+.venv/
+
+# Rendered videos & local development archives
+videos/
+archive/
+*.mp4
+
+# OS metadata
+.DS_Store
+Thumbs.db

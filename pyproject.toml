@@ -1,0 +1,18 @@
+[project]
+name = "mass-spring-damper-manimgl"
+version = "0.1.0"
+description = "Interactive 3Blue1Brown-style physics sandbox demonstrating memory in dynamic systems"
+readme = "README.md"
+authors = [
+    { name = "Mohammed159159", email = "mohammedhany300@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "manimgl>=1.7.2",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "setuptools<81",
+]
+
+[tool.uv]
+package = false
